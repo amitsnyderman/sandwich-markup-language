@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE sandwich SYSTEM "sml.dtd">
+
+<sandwich>
+	<bread type="roll">
+		<vegetable type="sprouts" />
+		<meat type="turkey" variety="smoked" />
+		<condiment type="mustard" variety="honey" />
+	</bread>
+</sandwich>

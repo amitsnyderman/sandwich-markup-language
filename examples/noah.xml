@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE sandwich SYSTEM "sml.dtd">
+
+<sandwich>
+	<bread variety="rye">
+		<vegetable type="tomato" />
+		<cheese type="swiss" preparation="melted" />
+		<meat type="ham" />
+		<condiment type="mustard" variety="honey" />
+	</bread>
+</sandwich>

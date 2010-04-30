@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE sandwich SYSTEM "sml.dtd">
+
+<sandwich>
+	<bread type="baguette">
+		<vegetable type="arugula" />
+		<meat type="pork" preparation="roasted" />
+	</bread>
+</sandwich>

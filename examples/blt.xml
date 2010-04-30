@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE sandwich SYSTEM "sml.dtd">
+
+<!-- BLT Example -->
+<sandwich>
+	<bread variety="rye" preparation="toasted">
+		<vegetable type="lettuce" />
+		<vegetable type="tomato" />
+		<meat type="bacon" variety="smoked" />
+	</bread>
+</sandwich>

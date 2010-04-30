@@ -1,0 +1,57 @@
+<!ELEMENT sandwich (bread|vegetable|fruit|meat|cheese|condiment|seasoning)+>
+<!-- preparation: pressed? -->
+
+<!ELEMENT bread (bread|vegetable|fruit|meat|cheese|condiment|seasoning)*>
+<!ATTLIST bread
+  type (sliced|roll|hero|bagel|englishmuffin|baguette|wrap) "sliced"
+  variety CDATA #IMPLIED
+  preparation (toasted|grilled) #IMPLIED
+  thickness CDATA #IMPLIED
+>
+
+<!ELEMENT vegetable EMPTY>
+<!ATTLIST vegetable
+  type CDATA #REQUIRED
+  variety CDATA #IMPLIED
+  preparation CDATA #IMPLIED
+  thickness CDATA #IMPLIED
+>
+
+<!ELEMENT fruit EMPTY>
+<!ATTLIST fruit
+  type CDATA #REQUIRED
+  variety CDATA #IMPLIED
+  preparation CDATA #IMPLIED
+  thickness CDATA #IMPLIED
+>
+
+<!ELEMENT meat EMPTY>
+<!ATTLIST meat
+  type CDATA #REQUIRED
+  variety CDATA #IMPLIED
+  preparation CDATA #IMPLIED
+  thickness CDATA #IMPLIED
+>
+
+<!ELEMENT cheese EMPTY>
+<!ATTLIST cheese
+  type CDATA #REQUIRED
+  variety CDATA #IMPLIED
+  preparation CDATA #IMPLIED
+  thickness CDATA #IMPLIED
+>
+
+<!ELEMENT condiment EMPTY>
+<!ATTLIST condiment
+  type CDATA #REQUIRED
+  variety CDATA #IMPLIED
+  preparation CDATA #IMPLIED
+  coverage CDATA #IMPLIED
+>
+
+<!ELEMENT seasoning EMPTY>
+<!ATTLIST seasoning
+  type CDATA #REQUIRED
+  variety CDATA #IMPLIED
+  coverage CDATA #IMPLIED
+>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE sandwich SYSTEM "sml.dtd">
+
+<sandwich>
+	<bread type="sliced" variety="wholewheat">
+		<meat type="turkey" variety="honeymaple" />
+		<condiment type="stuffing" />
+		<condiment type="cranberrysauce" />
+	</bread>
+</sandwich>
