@@ -1,0 +1,19 @@
+Sandwich Markup Language
+========================
+
+My favorite is the "Cheesy Bagel"
+
+	<?xml version="1.0"?>
+	<!DOCTYPE sandwich SYSTEM "sml.dtd">
+	
+	<sandwich>
+		<cheese type="pepperjack" preparation="melted" />
+		<vegetable type="tomato" thickness="thin" />
+		<vegetable type="onion" variety="red" thickness="thin" />
+		<seasoning type="zatar" coverage="sprinkled" />
+		<cheese type="cream" variety="veggie" thickness="thin" />
+		<vegetable type="olive" preparation="studded" />
+		<bread type="bagel" variety="everything" preparation="toasted" />
+	</sandwich>
+
+What's yours?
